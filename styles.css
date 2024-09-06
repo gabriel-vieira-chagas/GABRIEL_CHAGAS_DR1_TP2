@@ -1,3 +1,9 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
@@ -22,7 +28,7 @@ nav {
   margin: 5px;
 }
 
-.nav-list li a {
+.nav-list li a, .voltarinicio {
   text-decoration: none;
   color: #fff;
   padding: 8px 16px;
