@@ -4,10 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício 7</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style6e7.css" />
 </head>
 <body>
     <h1>Tarefa 7 Ajustando a Responsividade com a Tag <meta /> "viewport"</h1>
+    <div class="grid-container">
+        <header class="header">Cabeçalho</header>
+
+        <nav class="sidebar">Barra Lateral</nav>
+    
+        <main class="main-content">
+            Conteúdo Principal
+            <p>
+                Removendo a tag `meta name="viewport" content="width=device-width, initial-scale=1.0"`, o layout da página não se ajustou corretamente aos dispositivos móveis. A página aparece em uma versão de desktop reduzida, com texto e elementos pequenos, obrigando o usuário a dar zoom manualmente para visualizar o conteúdo.
+            </p>
+            <br>
+            <br>
+            <p>
+                Ao alterar o valor de `initial-scale` para valores diferentes de 1.0, como 0.5 ou 1.5, o zoom inicial da página mudou em dispositivos móveis. Um valor de 0.5 fez com que o layout da página ficasse muito pequeno, e 1.5 ampliou o layout, tornando o texto e os elementos maiores, mas limitando a quantidade de conteúdo visível na tela de uma só vez.
+            </p>
+            <br>
+            <br>
+            <p>
+                Ao usar outros valores para o atributo `content`, como `width=500` ou `initial-scale=2`,o layout se ajustou para corresponder a esses valores. Com `width=500`, o layout é forçado a uma largura fixa de 500 pixels, causando barras de rolagem horizontais em dispositivos menores. Com `initial-scale=2`, a página é exibida com um zoom maior por padrão, fazendo o texto e elementos parecerem mais próximos, mas resultando em menos conteúdo visível sem rolagem.
+            </p>
+        </main>
+        <aside class="extra-area">Área Extra</aside>
+        <footer class="footer">Rodapé</footer>
+    </div>
     <a href="index.html">Voltar ao Inicio</a>
 </body>
 </html>

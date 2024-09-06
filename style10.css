@@ -1,0 +1,5 @@
+@import url('styles.css') screen and (min-width: 768px) and (orientation: landscape);
+
+@import url('style3e4.css') screen and (max-height: 500px), screen and (min-width: 1024px);
+
+@import url('style5.css') print, screen and (max-width: 600px);
